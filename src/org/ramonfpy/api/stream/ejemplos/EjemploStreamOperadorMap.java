@@ -47,6 +47,7 @@ public class EjemploStreamOperadorMap {
 
         System.out.println("listaNombres del Stream");
         List<String> listaNombres = nombres3.collect(Collectors.toList());
+
         listaNombres.forEach(System.out::println);
     }
 }
