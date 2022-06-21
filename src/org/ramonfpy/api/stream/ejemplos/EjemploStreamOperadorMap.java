@@ -1,7 +1,5 @@
 package org.ramonfpy.api.stream.ejemplos;
 
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -49,5 +47,6 @@ public class EjemploStreamOperadorMap {
         List<String> listaNombres = nombres3.collect(Collectors.toList());
 
         listaNombres.forEach(System.out::println);
+        System.out.println("repositorio en Github");
     }
 }
